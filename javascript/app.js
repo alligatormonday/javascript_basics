@@ -80,25 +80,24 @@ arrTwo[2] = arr[2];
 //     hp: 3,
 //     attack: function(player) {
 //         // STEP 1: make a random number
-//         const enemyDamage = Math.floor(Math.random() * 7) + 1;
+//         let damage = Math.floor(Math.random() * 7) + 1;
 
 //         // OPTION: check for armor
 //         if (player.hasOwnProperty("armor")) {
 //             // remove armors worth of damage.
-//             enemyDamage - player.armor;
+//             damage - player.armor; 
 
 //             console.log(`${player.name} was protected by your armor!`)
 
 //             // NOT LESS THAN 1 damage damage can be done.
-//             if (enemyDamage < 1) {enemyDamage = 1}
-//         };
+//             if (damage < 1) {damage = 1}; 
 
 //         // STEP 2: Log the players name and damage done.
-//         console.log(`Enemy attacks ${player.name} for ${enemyDamage} damage.`);
+//         console.log(`Enemy attacks ${player.name} for ${damage} damage.`);
 //         // const betterWayOfMathing = Math.random(1, 5);
 
 //         // LAST STEP: remove the hp from that player.
-//         player.hp = player.hp - enemyDamage;
+//         player.hp = player.hp - damage;
 //     },
 // };
 
@@ -118,8 +117,6 @@ arrTwo[2] = arr[2];
 // `);
 
 // FOR, DO & WHILE - LOOPS //
-for (let i = 0; i < 0; i++){
 
-}
 
 // === FUNCTIONS 5 TYPES TODAY === //
